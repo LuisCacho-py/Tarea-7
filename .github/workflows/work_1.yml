@@ -1,0 +1,10 @@
+name: Work 1 Cacho
+
+on: [push]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: echo "Something"
