@@ -11,4 +11,4 @@ jobs:
       - run: python --version
       - run: pip --version
       - uses: actions/checkout@v3
-      - run: python print("Hola Mundo")
+      - run: python -c "print('Hola Mundo')"
